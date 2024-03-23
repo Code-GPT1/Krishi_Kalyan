@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="page">
+            <div class="logo">
+                <img src="/logo.png" alt="Krishi Kalyan" style="width: 175px;">
+            </div>
+
+            <br />
+            <form class="container" action="/login" method="post">
+                <input type="text" placeholder="Email" name="u_name" autocomplete="off">
+                <input type="password" placeholder="Password" name="pass" autocomplete="off">
+                <button class="submitbutton">Log in</button>
+                <br />
+                <div class="option">OR</div>
+            </form>
+            <div class="messageClass">
+            <% if (message) { %>
+                <div class="message">
+                    <%= message %>
+                </div>
+            <% } %>
+            </div>
+            <div class="fblink">
+                <span class="fab fafacebook"></span>
+                <a href="#">Log in With Google</a>
+            </div>
+
+            <div class="forget-id">
+                <a href="https://www.instagram.com/accounts/password/reset/">Forget password?</a>
+            </div>
+
+            <div class="signup">
+                <p>Don't have an account? <a href="/front.ejs">Sign up</a></p>
+            </div>
+            
+            
+        </div>
+    </div>
+</body>
+
+</html>

