@@ -9,6 +9,7 @@ https://github.com/Code-GPT1/Krishi_Kalyan/assets/164609928/67b89fc4-2e04-438c-b
 # Layout of Website
 ![1](https://github.com/Code-GPT1/Krishi_Kalyan/assets/164609928/dab3ca5b-3243-4f99-999b-615d6a1c72ab)
 ![2](https://github.com/Code-GPT1/Krishi_Kalyan/assets/164609928/bffb9d95-84f3-4c03-9ac4-dead1b25f407)
+![Frame 8](https://github.com/Code-GPT1/Krishi_Kalyan/assets/164609928/eb8739d6-4bb7-406f-8b71-22ad9ee03c38)
 
 
 ## Backend of user database
